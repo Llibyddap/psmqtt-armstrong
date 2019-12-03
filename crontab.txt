@@ -1,0 +1,3 @@
+entry into crontab noting user exeuction
+
+0  0  *  *  * pi	pgrep -f psmqtt.py || python /home/pi/psmqtt/psmqtt.py
