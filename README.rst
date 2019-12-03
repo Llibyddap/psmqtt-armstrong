@@ -1,3 +1,5 @@
+(originally cloned from https://github.com/eschava/psmqtt)
+
 .. contents:: Table of Contents
 
 =======
