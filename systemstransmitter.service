@@ -1,0 +1,11 @@
+[Unit]
+Description=MQTT service for psmqtt (pi).
+
+[Service]
+Type=simple
+User=pi
+ExecStartPre=/bin/sleep 30
+ExecStart=/home/pi/systemtransmitter.sh
+
+[Install]
+WantedBy=multi-user.target

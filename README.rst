@@ -2,6 +2,14 @@
 
 Config files omitted from public push...  See above link for original work and example conf files.
 
+Create systemd service
+
+1. create systemstransmitter.sh file 
+2. chmod +x transmitter
+3. create systemstransmitter.service file @ /etc/systemd/system
+
+
+
 .. contents:: Table of Contents
 
 =======
