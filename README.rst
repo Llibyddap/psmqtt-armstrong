@@ -1,5 +1,7 @@
 (originally cloned from https://github.com/eschava/psmqtt)
 
+Config files omitted from public push...  See above link for original work and example conf files.
+
 .. contents:: Table of Contents
 
 =======
