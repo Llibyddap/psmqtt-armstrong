@@ -1,9 +1,6 @@
 entry into crontab noting user exeuction.  
 
-   10 0  *  *  * pi	/usr/bin/systemctl restart systemstransmitter.sh  # restarts mqtt every night at 10 past midnight.
-  */5 *  *  *  * pi /home/pi/systemstransmitter.sh >/dev/null 2>&1 # ensures that mqtt is running, checks every 5 minutes.
-  
-  The '>/dev/null 2>&1' is a simple redirect of the output of the stout and the sterr to the null file (trash).
+   5  0  *  *  * pi	/usr/bin/systemctl restart systemstransmitter  # restarts mqtt every night at 10 past midnight.
   
   I also tried working with 
   
