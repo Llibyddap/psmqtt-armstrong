@@ -4,6 +4,8 @@ Description=MQTT service for psmqtt (pi).
 [Service]
 Type=simple
 User=pi
+Restart=always
+RestartSec=5
 ExecStartPre=/bin/sleep 30
 ExecStart=/home/pi/systemtransmitter.sh
 
