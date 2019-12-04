@@ -7,7 +7,7 @@ User=pi
 Restart=always
 RestartSec=5
 ExecStartPre=/bin/sleep 30
-ExecStart=/home/pi/systemtransmitter.sh
+ExecStart=/home/pi/systemstransmitter.sh
 
 [Install]
 WantedBy=multi-user.target
