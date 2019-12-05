@@ -213,7 +213,7 @@ if __name__ == '__main__':
     mqttc.on_connect = on_connect
     mqttc.on_disconnect = on_disconnect
 
-    mqttc.will_set('clients/psmqtt', payload="Adios!", qos=0, retain=False)
+    # mqttc.will_set('clients/psmqtt', payload="Adios!", qos=0, retain=False)
 
     # Delays will be: 3, 6, 12, 24, 30, 30, ...
     # mqttc.reconnect_delay_set(delay=3, delay_max=30, exponential_backoff=True)
