@@ -2,7 +2,7 @@ entry into crontab noting user exeuction.
 
    5  0  *  *  * pi	/usr/bin/systemctl restart systemstransmitter  # restarts mqtt every night at 10 past midnight.
   
-  I also tried working with 
+  I also tried working with  
   
   pgrep -f psmqtt.py || python /home/pi/psmqtt/psmqtt.py
   
